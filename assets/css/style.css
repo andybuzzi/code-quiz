@@ -1,0 +1,67 @@
+/* reset css style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header {
+  background-color: aquamarine;
+} */
+
+header h1 {
+  padding: 20px;
+  font-size: 20px;
+  color: blue;
+}
+
+#home-page h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#home-page p {
+  text-align: center;
+  margin: 0 auto;
+  width: 550px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn-button, .buttonNode {
+  font-size: 16px;
+  padding: 10px 15px;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn button:hover {
+  color: lightblue;
+}
+
+
+#questionTitle {
+  width: 100%; 
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttonNode{
+  display: block;
+  margin: 15px auto;
+  width: 270px;
+  text-align: left;
+}
