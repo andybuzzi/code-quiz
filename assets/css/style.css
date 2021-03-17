@@ -9,7 +9,7 @@ header {
   display: flex;
 }
 header h1 {
-  flex: auto;
+  
   padding: 20px;
   font-size: 20px;
   color: navy;
@@ -21,6 +21,8 @@ header:hover h1 {
 }
 
 #countdown {
+  flex: auto;
+  text-align: right;
   color: navy;
   padding: 20px;
   font-size: 18px;
@@ -79,4 +81,14 @@ header:hover h1 {
   width: 270px;
   text-align: left;
 }
+
+.hide {
+  display: none;
+}
+
+#feedback {
+  color: navy;
+  text-align: center;
+  font-style: italic;
+  }
 
