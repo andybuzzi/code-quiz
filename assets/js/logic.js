@@ -86,7 +86,7 @@ function questionClicker() {
 function highScore() {
   document.getElementById("home-page").innerHTML = "";
   var highScoreEl = document.getElementById("high-score");
-  // highScoreEl.textContent = "test";
+  // highScoreEl.textConztent = "test";
   console.log("it was clicked");
 }
 
